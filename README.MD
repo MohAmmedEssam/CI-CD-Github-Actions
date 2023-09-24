@@ -24,7 +24,8 @@ Now you got 2 Certificate, 2 provision profile, 1 api key, 1 ExportOptions plist
 
 add .github folder you download from this repo to your project directory
 
-convert all those files you got to base 64 string and add it to the .yml file
+convert all those files you got to base 64 string and add it to the .yml file using this command:
+base64 -i Certificates.p12| pbcopy
 
 push the .github folder to your main branch
 
